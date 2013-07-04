@@ -1,0 +1,11 @@
+# This program will ask for your name and favorite number
+# Then it will print your name the same number of times as your favorite number
+#
+puts "What is your name?"
+  name = gets.chomp
+  puts "What is your favorite number? "
+  fav_num = gets.chomp; fav_num.to_i
+  puts "We will now print your name #{fav_num} times: ";
+  favorite = fav_num.to_i
+  favorite.times do puts name
+end
